@@ -18,6 +18,7 @@ th, td {
 
 
 .num1 { background-color: #123456; font-weight: bold; color: #f58b00; }
+.day1 { background-color:#224970 ; font-size: xx-small; }
 .day8 { background-color: #345988; }
 .day15 { background-color: #4674A1; }
 .day22 { background-color: #588FC0; }
@@ -53,6 +54,7 @@ th, td {
 .day12 { background-color: #33732A; }
 .day19 { background-color: #4D8C3F; }
 .day26 { background-color: #66A454; }
+.day33 { background-color: #8aa568; font-size: xx-small; }
 
 
 .num6 { background-color: #1C4901; font-weight: bold; color: #f0ff22; }
@@ -60,6 +62,7 @@ th, td {
 .day13 { background-color: #5A811E; }
 .day20 { background-color: #789E3B; }
 .day27 { background-color: #97BA57; }
+.day34 { background-color: #99b16c; font-size: xx-small; }
 
 
 .num7 { background-color: #4D3800; font-weight: bold; color: #ffffff; }
@@ -67,3 +70,4 @@ th, td {
 .day14 { background-color: #806A55; }
 .day21 { background-color: #99827F; }
 .day28 { background-color: #B19BAA; }
+.day35 { background-color: #b3a9af; font-size: xx-small; }
