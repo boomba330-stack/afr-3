@@ -6,8 +6,6 @@ body {
 }
 
 body {
-  margin: 0;
-  padding: 20px;
   background-color: #aebec5;
 }
 
@@ -28,8 +26,9 @@ body::before {
 
 p {
   background-color: #c5c3c3;
-  padding: 5px 10px;
   text-align: center;
+  margin: 20px;
+  padding: 10px;
 }
 
 h5 {
@@ -53,10 +52,12 @@ h3 {
   align-items: stretch;
   background-color: #333131;
   height: 85px;
-  width: 100vw;
-  margin-left: -20px;
+  width: 100%;
+  padding: 0;
+  margin: 0px;
   z-index: 1000;
-
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
 }
 
 .navbar ul {
@@ -67,19 +68,21 @@ h3 {
   width: 100%;
   list-style: none;
   white-space: nowrap;
+  
 }
 
 .navbar li {
-  flex: 1;
+  flex: 0 0 auto;
   flex-shrink: 0;
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: auto;
 }
 
 .navbar a {
-  flex: 1;
+  flex: auto;
   text-align: center;
   color: white;
   text-decoration: none;
@@ -89,6 +92,7 @@ h3 {
   justify-content: center;
   width: 100%;
   height: 100%;
+  padding: 0 16.8px;
 }
 
 .navbar a:hover {
